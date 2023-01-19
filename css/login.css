@@ -1,0 +1,41 @@
+.start-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+.start_header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.start_header img {
+    width: 100px;
+}
+.start_header h1 {
+    padding: 15px;
+    color: #f7d917;
+    font-size: 1.8em;
+}
+.start {
+    background-color: #120a8f;
+    color: white;
+    padding: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+.start:disabled {
+    background-color: white;
+    color: #120a8f;
+}
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -18%;
+    
+}
